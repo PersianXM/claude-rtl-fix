@@ -1,8 +1,13 @@
 {
   "name": "rtl-fix",
+  "displayName": "RTL Fix",
   "version": "0.1.0",
   "description": "Keeps Persian, Arabic and Hebrew lines in Claude's replies right-to-left, even when a line starts with an English word",
   "author": { "name": "Ali Rashedi" },
   "license": "MIT",
+  "homepage": "https://github.com/PersianXM/claude-rtl-fix",
+  "repository": "https://github.com/PersianXM/claude-rtl-fix",
+  "documentationUrl": "https://github.com/PersianXM/claude-rtl-fix#readme",
+  "supportUrl": "https://github.com/PersianXM/claude-rtl-fix/issues",
   "keywords": ["rtl", "persian", "farsi", "arabic", "hebrew", "bidi"]
 }
