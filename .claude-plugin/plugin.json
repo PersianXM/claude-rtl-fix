@@ -1,0 +1,8 @@
+{
+  "name": "rtl-fix",
+  "version": "0.1.0",
+  "description": "Keeps Persian, Arabic and Hebrew lines in Claude's replies right-to-left, even when a line starts with an English word",
+  "author": { "name": "Ali Rashedi" },
+  "license": "MIT",
+  "keywords": ["rtl", "persian", "farsi", "arabic", "hebrew", "bidi"]
+}
