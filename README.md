@@ -69,6 +69,7 @@ claude plugin disable rtl-fix@claude-rtl-fix
 - It works in Claude Code (the CLI and the desktop app's **Code** tab), not in the claude.ai chat.
 - It needs a Claude Code build that supports plugin hooks modules (2.1.3xx or newer).
 - This is a community plugin. It is not made or endorsed by Anthropic.
+- Privacy: the plugin collects, keeps and sends nothing. See [PRIVACY.md](PRIVACY.md).
 
 <br>
 
@@ -115,6 +116,7 @@ claude plugin install rtl-fix --marketplace PersianXM/claude-rtl-fix
 - این نویسه‌ی نامرئی در خود متن پاسخ ذخیره می‌شود. پس اگر متن را کپی کنید، همراهش کپی می‌شود.
 - فقط روی Claude Code کار می‌کند (ترمینال و تب **Code** اپ دسکتاپ)، نه روی چت claude.ai.
 - این یک افزونه‌ی جامعه است و Anthropic آن را نساخته یا تأیید نکرده است.
+- حریم خصوصی: افزونه هیچ داده‌ای جمع، نگه‌داری یا ارسال نمی‌کند. جزئیات در [PRIVACY.md](PRIVACY.md).
 
 </div>
 
@@ -163,6 +165,7 @@ claude plugin install rtl-fix --marketplace PersianXM/claude-rtl-fix
 - تُحفَظ العلامة غير المرئية داخل نص الرد نفسه، لذا تُنسَخ معه إذا نسخته.
 - يعمل في Claude Code فقط (الطرفية وتبويب **Code** في تطبيق سطح المكتب)، وليس في محادثة claude.ai.
 - هذه إضافة مجتمعية، لم تصنعها Anthropic ولم تعتمدها.
+- الخصوصية: لا تجمع الإضافة أي بيانات ولا تحتفظ بها ولا ترسلها. التفاصيل في [PRIVACY.md](PRIVACY.md).
 
 </div>
 
@@ -211,6 +214,7 @@ claude plugin install rtl-fix --marketplace PersianXM/claude-rtl-fix
 - הסימן הבלתי נראה נשמר בתוך טקסט התשובה עצמו, ולכן הוא מועתק יחד איתו.
 - עובד רק ב-Claude Code (הטרמינל ולשונית **Code** באפליקציית שולחן העבודה), לא בצ'אט של claude.ai.
 - זהו תוסף קהילתי. הוא לא נוצר ולא אושר על ידי Anthropic.
+- פרטיות: התוסף לא אוסף, לא שומר ולא שולח שום מידע. פרטים ב-[PRIVACY.md](PRIVACY.md).
 
 </div>
 
