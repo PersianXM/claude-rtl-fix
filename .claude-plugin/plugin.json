@@ -9,5 +9,6 @@
   "repository": "https://github.com/PersianXM/claude-rtl-fix",
   "documentationUrl": "https://github.com/PersianXM/claude-rtl-fix#readme",
   "supportUrl": "https://github.com/PersianXM/claude-rtl-fix/issues",
+  "privacyPolicyUrl": "https://github.com/PersianXM/claude-rtl-fix/blob/main/PRIVACY.md",
   "keywords": ["rtl", "persian", "farsi", "arabic", "hebrew", "bidi"]
 }
