@@ -5,7 +5,7 @@
 <p align="center">
   <a href="#install"><img src="https://img.shields.io/badge/Claude_Code-plugin-D97757?style=for-the-badge&labelColor=0d0806" alt="Claude Code plugin"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-D97757?style=for-the-badge&labelColor=0d0806" alt="MIT license"></a>
-  <img src="https://img.shields.io/badge/فارسی_·_العربية_·_עברית-RTL-D97757?style=for-the-badge&labelColor=0d0806" alt="Persian, Arabic, Hebrew">
+  <img src="https://img.shields.io/badge/RTL-Persian_·_Arabic_·_Hebrew-D97757?style=for-the-badge&labelColor=0d0806" alt="RTL: Persian, Arabic, Hebrew">
 </p>
 
 <p align="center">
