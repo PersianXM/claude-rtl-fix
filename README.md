@@ -39,6 +39,8 @@ Before each reply is saved and shown, `rtl-fix` adds one invisible character, th
 | 🔒 **Local and tiny** | No network, no file access, no commands, no settings. About 60 lines you can read in a minute |
 | ♻️ **Safe to repeat** | A line that already has the mark is left as it is |
 
+**Under the hood:** the plugin registers one hook, on the `session.append` event, matched to rows that come from the model's response (`door: "response"`). For each text block in such a row it adds the mark described above and hands the row on unchanged otherwise. It does not touch prompts, tool calls or tool results, and if the hook ever fails the reply is kept exactly as Claude wrote it.
+
 ## Install
 
 **Terminal**, at the prompt of a Claude Code session:

@@ -1,6 +1,8 @@
-// Persian / Arabic script letters.
-const RTL = /[֐-ࣿיִ-﷿ﹰ-﻿]/
-const RLM = '‏'
+// Hebrew, Arabic and Persian letters (U+0590-U+08FF, U+FB1D-U+FDFF, U+FE70-U+FEFE),
+// built from code points so the source holds no invisible or RTL characters.
+const ch = (n: number) => String.fromCharCode(n)
+const RTL = new RegExp(`[${ch(0x590)}-${ch(0x8ff)}${ch(0xfb1d)}-${ch(0xfdff)}${ch(0xfe70)}-${ch(0xfefe)}]`)
+const RLM = ch(0x200f) // Right-to-Left Mark
 
 // Markdown prefix a line may start with: indentation, blockquote marks,
 // heading hashes, list bullets / numbers, task-list boxes.
@@ -10,7 +12,7 @@ function fixLine(line: string): string {
   if (!RTL.test(line)) return line
   // Table row: put an RLM at the start of every cell.
   if (/^\s*\|.*\|\s*$/.test(line)) {
-    return line.replace(/\|(\s*)(?!‏)(?=[^|\s-:])/g, `|$1${RLM}`)
+    return line.replace(new RegExp(`\\|(\\s*)(?!${RLM})(?=[^|\\s\\-:])`, 'g'), `|$1${RLM}`)
   }
   const m = PREFIX.exec(line)
   const head = m ? m[1] : ''
